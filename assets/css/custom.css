@@ -1,0 +1,23 @@
+
+.content_loader{
+	display: none;
+	margin: 0;
+	padding: 0;
+	width: 40px;
+}
+
+.modal-view img{
+	width: 100%;
+}
+
+.modal-view h5{
+  margin: 0px 5px;
+}
+
+.modal-view hr{
+  margin: 5px;
+}
+
+.modal-view p{
+	margin: 0px 5px;
+}

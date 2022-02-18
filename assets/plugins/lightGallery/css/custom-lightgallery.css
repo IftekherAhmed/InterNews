@@ -1,0 +1,17 @@
+.light-gallery-area{}
+
+.light-gallery-each{
+  border: 1px solid #ddd;
+  margin-right: 10px;
+  padding: 10px
+}
+
+.light-gallery-each img{
+  width: 100%;
+  height: 250px;
+}
+
+.light-gallery-each p.caption{
+  margin: 5px;
+  font-style: italic;
+}

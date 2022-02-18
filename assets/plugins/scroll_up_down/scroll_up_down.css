@@ -1,0 +1,61 @@
+/*scroll up*/
+       
+.faico a, #mainav *, #scrollup, #scrolldown, .btn, a::before, a::after, .service i {
+	transition: all 0.2s ease-in-out;
+}
+
+  
+/* Back to Top */
+#scrollup, #scrolldown {
+	z-index: 999;
+	display: inline-block;
+	position: fixed;
+	visibility: hidden;
+	line-height: 36px;
+	font-size: 16px;
+	text-align: center;
+	opacity: .5;
+	padding: 5px 20px;
+	/*! border-radius: 45px; */;
+}
+
+.scrollup-home {
+	bottom: 10px;
+	right: 10px;
+}
+
+.scrollup-backend {
+	top: 10px;
+	right: 10px;
+	background: #000;
+	color: #fff;
+}
+
+.scrollup-backend:hover {
+	color: #fff;
+}
+
+#scrolldown {
+	top: 10px;
+	right: 70px;
+	z-index: 1;
+}
+
+#scrollup:hover, #scrolldown:hover {
+	text-decoration: none;
+}
+
+#scrollup i, #scrolldown i {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: inherit;
+}
+
+#scrollup.visible, #scrolldown.visible {
+	visibility: visible;
+}
+
+#scrollup.visible:hover, #scrolldown.visible:hover {
+	opacity: 1;
+}
